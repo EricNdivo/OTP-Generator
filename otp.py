@@ -30,5 +30,6 @@ def generate_otp(secret_key, interval=30, digits=6, count=1):
 secret_key = '3132333435363738393031323334353637383930'  # Example secret key in hexadecimal format
 otp_count = 5  # Number of OTPs to generate
 
+#OTPs Generated 
 generated_otps = generate_otp(secret_key, count=otp_count)
 print("Generated OTPs:", generated_otps)
